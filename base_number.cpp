@@ -79,6 +79,7 @@ int main()
     cout << "Please enter your number:";
     cin >> numb;
     i = con_dec_hex(numb,0);
+    cout << "Your Heximal number is: ";
     for (i = i-1 ; i >=0; i--)
     {
       cout << hexDec[i];
